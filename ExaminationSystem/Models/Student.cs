@@ -1,8 +1,8 @@
 ﻿namespace ExaminationSystem.Models
 {
-    public class Student
+    public class Student :User
     {
-        public HashSet<Course> Courses { get; set; }
-        public HashSet<Exam> Exams { get; set; }
+        public HashSet<StudentCourse> StudentCourses { get; set; }
+        public HashSet<StudentExam> StudentExams { get; set; }
     }
 }

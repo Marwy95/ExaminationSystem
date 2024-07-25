@@ -1,6 +1,6 @@
 ﻿namespace ExaminationSystem.Models
 {
-    public class Choice
+    public class Choice:BaseModel
     {
         public string Text { get; set; }
         public Question Question { get; set; }
