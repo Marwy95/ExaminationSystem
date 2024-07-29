@@ -55,8 +55,15 @@ namespace ExaminationSystem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<int>("CreditHours")
+                        .HasColumnType("int");
+
                     b.Property<int>("InstructorID")
                         .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("ID");
 
@@ -282,7 +289,7 @@ namespace ExaminationSystem.Migrations
             modelBuilder.Entity("ExaminationSystem.Models.Exam", b =>
                 {
                     b.HasOne("ExaminationSystem.Models.Course", "Course")
-                        .WithMany("Quizzes")
+                        .WithMany("Exams")
                         .HasForeignKey("CourseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -357,7 +364,7 @@ namespace ExaminationSystem.Migrations
 
             modelBuilder.Entity("ExaminationSystem.Models.Course", b =>
                 {
-                    b.Navigation("Quizzes");
+                    b.Navigation("Exams");
 
                     b.Navigation("StudentCourses");
                 });

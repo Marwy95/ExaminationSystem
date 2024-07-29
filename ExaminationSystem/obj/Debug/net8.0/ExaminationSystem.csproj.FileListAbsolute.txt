@@ -137,3 +137,4 @@ C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\ExaminationSystem\Examin
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\ExaminationSystem\ExaminationSystem\obj\Debug\net8.0\ExaminationSystem.pdb
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\ExaminationSystem\ExaminationSystem\obj\Debug\net8.0\ExaminationSystem.genruntimeconfig.cache
 C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\ExaminationSystem\ExaminationSystem\obj\Debug\net8.0\ref\ExaminationSystem.dll
+C:\Marwy\Programming Courses\Backend.Net\Demos\Projects\ExaminationSystem\ExaminationSystem\bin\Debug\net8.0\AutoMapper.dll

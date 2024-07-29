@@ -33,25 +33,3 @@ namespace ExaminationSystem.Data
     }
    
 }
-/*
- 
- namespace ExaminationSystem
-{
-    public class AutoFacModule : Module
-    {
-        protected override void Load(ContainerBuilder builder)
-        {
-            builder.RegisterType<Context>().InstancePerLifetimeScope();
-            builder.RegisterGeneric(typeof(Repository<>)).As(typeof(IRepository<>)).InstancePerLifetimeScope();
-            builder.RegisterAssemblyTypes(typeof(IExamService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
-            builder.RegisterAssemblyTypes(typeof(IExamQuestionService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
-
-        }
-    }
-}
-
-   builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-            builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
-                builder.RegisterModule(new AutoFacModule()));
- 
- */
