@@ -1,5 +1,6 @@
 ﻿using ExaminationSystem.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace ExaminationSystem.Data
 {
@@ -7,7 +8,9 @@ namespace ExaminationSystem.Data
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=MSI\\SQLEXPRESS;Initial Catalog=Examination_System;Integrated Security=True;Trust Server Certificate=True");
+            optionsBuilder.UseSqlServer("Data Source=MSI\\SQLEXPRESS;Initial Catalog=Examination_System;Integrated Security=True;Trust Server Certificate=True")
+                .LogTo(log => Debug.WriteLine(log),LogLevel.Information)
+                .EnableSensitiveDataLogging();
             
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

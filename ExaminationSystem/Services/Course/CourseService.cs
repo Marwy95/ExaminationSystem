@@ -23,13 +23,46 @@ namespace ExaminationSystem.Services.Courses
             _courseRepository.Add(course);
             _courseRepository.SaveChanges();
         }
-        public IEnumerable<CourseDTO> Get()
+        public IEnumerable<CourseDTO> Get(int instructorID)
         {
 
-            var courses = _courseRepository.GetAll();
-            //return _mapper.ProjectTo<CourseDTO>(courses);
+            var courses = _courseRepository.Get(c=>c.InstructorID== instructorID);
             return courses.ProjectTo<CourseDTO>(_mapper.ConfigurationProvider).ToList();
+        }
+        public bool Update(CourseUpdateDTO courseDTO,int id,int instructorID)
+        {
+            var course = _courseRepository.GetByID(id);
+            if (course.InstructorID != instructorID) return false;
+            else
+            {
+                var Updatedcourse = _mapper.Map<Course>(courseDTO);
+                if (course != null)
+                {
+                    course.CreditHours = Updatedcourse.CreditHours;
+                    course.Name = Updatedcourse.Name;
+                    _courseRepository.Update(course);
+                    _courseRepository.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+            
 
+        }
+        public bool Delete(int id)
+        {
+            var course = _courseRepository.GetByID(id);
+            if ((course!=null))
+            {
+                _courseRepository.Delete(course);
+                _courseRepository.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+            
         }
 
     }

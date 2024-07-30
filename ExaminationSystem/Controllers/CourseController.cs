@@ -27,14 +27,30 @@ namespace ExaminationSystem.Controllers
             _courseService.Add(course);
         }
         [HttpGet]
-        public IEnumerable<CourseViewModel> Get()
+        public IEnumerable<CourseViewModel> Get(int instructorID)
         {
 
-            var courses = _courseService.Get();
-            //return _mapper.Map<IEnumerable<CourseViewModel>>(courses);
+            var courses = _courseService.Get(instructorID);
             return courses.AsQueryable()
                           .ProjectTo<CourseViewModel>(_mapper.ConfigurationProvider);
         }
+        [HttpPut]
+        public ActionResult Update(CourseUpdateViewModel courseViewModel,int id, int instructorID)
+        {
+
+            var course = _mapper.Map<CourseUpdateDTO>(courseViewModel);
+            var result = _courseService.Update(course,id, instructorID);
+            if (result) return Ok();
+            else return BadRequest(result);
+        }
+        [HttpDelete]
+        public ActionResult Delete(int id, int instructorID)
+        {
+            var result = _courseService.Delete(id);
+            if (result) return Ok();
+            else return BadRequest(result);
+        }
+
 
     }
 }

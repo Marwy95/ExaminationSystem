@@ -15,15 +15,16 @@ namespace ExaminationSystem.Repositories
         }
         public IQueryable<T> GetAll()
         {
-           return _context.Set<T>();
+
+            return _context.Set<T>().Where(T => !T.IsDeleted);
         }
-        public IQueryable<T> Get(Expression<Func<T,bool>> predicate)
+        public IQueryable<T> Get(Expression<Func<T, bool>> predicate)
         {
-            return _context.Set<T>().Where(predicate);
+            return GetAll().Where(predicate);
         }
         public T GetByID(int id)
         {
-            return _context.Set<T>().FirstOrDefault(x => x.ID == id);
+            return GetAll().FirstOrDefault(x => x.ID == id);
         }
         public void Add(T entity)
         {
@@ -31,15 +32,17 @@ namespace ExaminationSystem.Repositories
         }
         public void Delete(T entity)
         {
-            
-        }
+            entity.IsDeleted = true;
+            Update(entity);
 
+        }
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Update(entity);
         }
         public void SaveChanges()
         {
+            
             _context.SaveChanges();
         }
     }

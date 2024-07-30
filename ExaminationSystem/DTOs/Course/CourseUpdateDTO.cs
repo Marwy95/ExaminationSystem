@@ -1,6 +1,6 @@
-﻿namespace ExaminationSystem.ViewModels.Course
+﻿namespace ExaminationSystem.DTOs.Course
 {
-    public class CourseUpdateViewModel
+    public class CourseUpdateDTO
     {
         public string Name { get; set; }
         public int CreditHours { get; set; }
