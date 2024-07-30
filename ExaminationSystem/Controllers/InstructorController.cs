@@ -20,30 +20,27 @@ namespace ExaminationSystem.Controllers
             _mapper = mapper;
             
         }
-        //[HttpGet]
-        //public IEnumerable<Instructor> GetAll()
-        //{
-
-        //    return _instructorRepository.GetAll();
-        //}
-        //[HttpGet]
-        //public Instructor GetByID(int id)
-        //{
-        //    return _instructorRepository.GetByID(id);
-        //}
+        [HttpGet]
+        public IEnumerable<InstructorViewModel> Get()
+        {
+           var instructors =  _instructorService.Get();
+             return _mapper.Map<IEnumerable<InstructorViewModel>>(instructors);
+        }
+        
         [HttpPost]
         public void Register(InstructorRegisterViewModel instructorViewModel)
         {
             var instructor = _mapper.Map<InstructorRegisterDTO>(instructorViewModel);
-            _instructorService.Add(instructor);
+            _instructorService.Register(instructor);
         }
-        //[HttpPost]
-        //public void Login(Instructor instructor)
-        //{
-        //    _instructorRepository.Add(instructor);
-        //    _instructorRepository.SaveChanges();
-        //}
-        
+        [HttpPost]
+        public void Login(InstructorLoginViewModel InstructorLoginViewModel)
+        {
+
+            var instructor = _mapper.Map<InstructorLoginDTO>(InstructorLoginViewModel);
+            _instructorService.Login(instructor);
+        }
+
 
     }
 }

@@ -3,6 +3,8 @@ namespace ExaminationSystem.Services.Instructors
 {
     public interface IInstructorService
     {
-        void Add(InstructorRegisterDTO instructorCreateDTO);
+        IEnumerable<InstructorDTO> Get();
+        void Register(InstructorRegisterDTO instructorCreateDTO);
+        void Login(InstructorLoginDTO instructorLoginDTO);
     }
 }
