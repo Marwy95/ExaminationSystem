@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <Compile Remove="Services\NewFolder1\**" />
+    <Compile Remove="ViewModels\NewFolder\**" />
+    <Content Remove="NewFolder\**" />
+    <Content Remove="Services\NewFolder1\**" />
+    <Content Remove="ViewModels\NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Services\NewFolder1\**" />
+    <EmbeddedResource Remove="ViewModels\NewFolder\**" />
+    <None Remove="NewFolder\**" />
+    <None Remove="Services\NewFolder1\**" />
+    <None Remove="ViewModels\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="8.0.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="AutoMapper" Version="13.0.1" />
@@ -21,9 +36,7 @@
 
   <ItemGroup>
     <Folder Include="Services\Exam\" />
-    <Folder Include="Services\Question\" />
     <Folder Include="ViewModels\Exam\" />
-    <Folder Include="ViewModels\Questions\" />
   </ItemGroup>
 
 </Project>

@@ -6,5 +6,6 @@ namespace ExaminationSystem.DTOs.StudentCourse
     {
         public int StudentID { get; set; }
         public int CourseID { get; set; }
+      //public int InstructorID { get; set; }
     }
 }

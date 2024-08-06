@@ -6,6 +6,7 @@ namespace ExaminationSystem.Services.Courses
     {
         void Add(CourseCreateDTO courseDTO);
         IEnumerable<CourseDTO> Get(int id);
+        CourseDTO GetById(int id);
         bool Delete(int id);
         bool Update(CourseUpdateDTO courseDTO,int id,int instructorID);
     }

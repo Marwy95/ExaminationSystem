@@ -22,19 +22,29 @@ namespace ExaminationSystem.Repositories
         {
             return GetAll().Where(predicate);
         }
+        //public IQueryable<TResult> Select<TResult>(Expression<Func<T, TResult>> selector)
+        //{
+        //    return GetAll().Select(selector);
+        //}
         public T GetByID(int id)
         {
-            return GetAll().FirstOrDefault(x => x.ID == id);
+            return  GetAll().FirstOrDefault(x => x.ID == id);
         }
-        public void Add(T entity)
+        public T Add(T entity)
         {
-            _context.Add(entity);
+           _context.Add(entity);
+            return entity;  
         }
         public void Delete(T entity)
         {
             entity.IsDeleted = true;
             Update(entity);
 
+        }
+        public void Delete(int id)
+        {
+            T entity = _context.Find<T>(id);
+            Delete(entity);
         }
         public void Update(T entity)
         {
@@ -44,6 +54,10 @@ namespace ExaminationSystem.Repositories
         {
             
             _context.SaveChanges();
+        }
+        public T First(Expression<Func<T, bool>> predicate)
+        {
+            return _context.Set<T>().FirstOrDefault(predicate);
         }
     }
 }

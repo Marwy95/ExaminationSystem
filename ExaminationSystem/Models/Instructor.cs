@@ -4,5 +4,6 @@
     {
         public HashSet<Exam> Exams { get; set; }
         public HashSet<Course> Courses { get; set; }
+        public HashSet<Question> Questions { get; set; }
     }
 }

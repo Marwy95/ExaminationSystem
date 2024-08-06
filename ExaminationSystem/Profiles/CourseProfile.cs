@@ -11,8 +11,10 @@ namespace ExaminationSystem.Profiles
         {
             CreateMap<CourseCreateViewModel, CourseCreateDTO>();
             CreateMap<CourseCreateDTO, Course>();
+            //
             CreateMap<CourseUpdateViewModel, CourseUpdateDTO>();
-            CreateMap<CourseUpdateDTO, Course>();
+            CreateMap<CourseUpdateDTO,Course>();
+            //
             CreateMap<Course, CourseDTO>().ForMember(
                 dst => dst.NumberOfExams,
                 opt =>  opt.MapFrom(src => src.Exams.Count())

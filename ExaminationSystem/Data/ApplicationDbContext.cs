@@ -23,6 +23,10 @@ namespace ExaminationSystem.Data
                         .HasMany(i => i.Courses)
                         .WithOne(c => c.Instructor)
                         .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<Instructor>()
+                        .HasMany(i => i.Questions)
+                        .WithOne(q => q.Instructor)
+                        .OnDelete(DeleteBehavior.NoAction);
         }
         DbSet<Student> Students { get; set; }
         DbSet<Instructor> Instructors { get; set; }

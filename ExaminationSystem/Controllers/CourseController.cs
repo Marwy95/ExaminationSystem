@@ -34,6 +34,14 @@ namespace ExaminationSystem.Controllers
             return courses.AsQueryable()
                           .ProjectTo<CourseViewModel>(_mapper.ConfigurationProvider);
         }
+        [HttpGet]
+        public CourseViewModel GetById(int id)
+        {
+
+            var courseDTO = _courseService.GetById(id);
+            var courseViewModel = _mapper.Map<CourseViewModel>(courseDTO);
+            return courseViewModel;
+        }
         [HttpPut]
         public ActionResult Update(CourseUpdateViewModel courseViewModel,int id, int instructorID)
         {

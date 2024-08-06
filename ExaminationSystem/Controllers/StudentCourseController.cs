@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ExaminationSystem.DTOs.StudentCourse;
+using ExaminationSystem.Mediators.Courses;
 using ExaminationSystem.Services.StudentCourses;
 using ExaminationSystem.ViewModels.StudentCourse;
 using Microsoft.AspNetCore.Mvc;
@@ -10,18 +11,19 @@ namespace ExaminationSystem.Controllers
     [Route("[controller]/[action]")]
     public class StudentCourseController : ControllerBase
     {
-        IStudentCourseService _studentCourseService;
+        ICourseMediator _courseMediator;
         IMapper _mapper;
-        public StudentCourseController(IStudentCourseService studentCourseService,IMapper mapper) 
-        { 
-        _studentCourseService = studentCourseService;
+        public StudentCourseController(ICourseMediator courseMediator, IMapper mapper) 
+        {
+            _courseMediator = courseMediator;
+            _mapper = mapper;
         
         }
         [HttpPost]
-        public void EnrollStudent(StudentCourseViewModel studentCourseViewModel)
+        public void EnrollStudent(StudentCourseViewModel studentCourseViewModel,int instructorID)
         {
-            var studentCourse = _mapper.Map<StudentCourseDTO>(studentCourseViewModel);
-            _studentCourseService.Add(studentCourse);
+            var studentCourseDTO = _mapper.Map<StudentCourseDTO>(studentCourseViewModel);
+            _courseMediator.EnrollStudentToCourse(studentCourseDTO, instructorID);
         }
 
     }

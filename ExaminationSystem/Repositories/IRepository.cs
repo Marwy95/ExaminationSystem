@@ -9,9 +9,11 @@ namespace ExaminationSystem.Repositories
         IQueryable<T> GetAll();
         IQueryable<T> Get(Expression<Func<T,bool>>predicate);
         T GetByID(int id);
-        void Add(T entity);
+        T Add(T entity);
         void Update(T entity);
         void Delete(T entity);
+        void Delete(int id);
         void SaveChanges();
+        T First(Expression<Func<T, bool>> predicate);
     }
 }

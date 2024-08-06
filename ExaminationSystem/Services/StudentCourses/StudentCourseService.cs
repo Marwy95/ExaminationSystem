@@ -17,8 +17,10 @@ namespace ExaminationSystem.Services.StudentCourses
         }
         public void Add(StudentCourseDTO studentCourseDTO)
         {
+           
             var studentCourse = _mapper.Map<StudentCourse>(studentCourseDTO);
             _studentCourseRepo.Add(studentCourse);
+            _studentCourseRepo.SaveChanges();
         }
     }
 }

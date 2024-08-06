@@ -29,6 +29,12 @@ namespace ExaminationSystem.Services.Courses
             var courses = _courseRepository.Get(c=>c.InstructorID== instructorID);
             return courses.ProjectTo<CourseDTO>(_mapper.ConfigurationProvider).ToList();
         }
+        public CourseDTO GetById(int id)
+        {
+            var course = _courseRepository.GetByID(id);
+           return _mapper.Map<CourseDTO>(course);
+       
+        }
         public bool Update(CourseUpdateDTO courseDTO,int id,int instructorID)
         {
             var course = _courseRepository.GetByID(id);
