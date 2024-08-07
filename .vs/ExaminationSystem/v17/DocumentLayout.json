@@ -3,52 +3,36 @@
   "WorkspaceRootPath": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\services\\questions\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\services\\questions\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\dtos\\student\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\dtos\\student\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\profiles\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\profiles\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\services\\course\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\services\\course\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\services\\choices\\ichoiceservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\services\\choices\\ichoiceservice.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\profiles\\questionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\profiles\\questionprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\dtos\\student\\studentlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\dtos\\student\\studentlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\services\\questions\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\services\\questions\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\profiles\\choiceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\profiles\\choiceprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\viewmodels\\choices\\choiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\viewmodels\\choices\\choiceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\mediators\\questions\\questionmediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\mediators\\questions\\questionmediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\services\\choices\\choiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\services\\choices\\choiceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|c:\\marwy\\programming courses\\backend.net\\demos\\projects\\examinationsystem\\examinationsystem\\viewmodels\\student\\studentloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2B7801-828E-432E-B951-AB91F03A0C8A}|ExaminationSystem\\ExaminationSystem.csproj|solutionrelative:examinationsystem\\viewmodels\\student\\studentloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,97 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ChoiceProfile.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\ChoiceProfile.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Profiles\\ChoiceProfile.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\ChoiceProfile.cs",
-              "RelativeToolTip": "ExaminationSystem\\Profiles\\ChoiceProfile.cs",
+              "DocumentIndex": 1,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\DTOs\\Student\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\DTOs\\Student\\StudentDTO.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\DTOs\\Student\\StudentDTO.cs",
+              "RelativeToolTip": "ExaminationSystem\\DTOs\\Student\\StudentDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:23:38.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "QuestionProfile.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\QuestionProfile.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Profiles\\QuestionProfile.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\QuestionProfile.cs",
-              "RelativeToolTip": "ExaminationSystem\\Profiles\\QuestionProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:23:03.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IQuestionService.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Questions\\IQuestionService.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Services\\Questions\\IQuestionService.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Questions\\IQuestionService.cs",
-              "RelativeToolTip": "ExaminationSystem\\Services\\Questions\\IQuestionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:21:29.678Z",
+              "WhenOpened": "2024-08-07T11:37:17.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuestionService.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Questions\\QuestionService.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Services\\Questions\\QuestionService.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Questions\\QuestionService.cs",
-              "RelativeToolTip": "ExaminationSystem\\Services\\Questions\\QuestionService.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAA1wDIAAAAoAAAA",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ExaminationSystem\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:13:15.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "ExaminationSystem\\Repositories\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:08:58.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuestionController.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\QuestionController.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Controllers\\QuestionController.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\QuestionController.cs",
-              "RelativeToolTip": "ExaminationSystem\\Controllers\\QuestionController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAswC8AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:08:11.697Z",
+              "WhenOpened": "2024-08-07T11:27:23.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Repositories\\Repository.cs",
-              "RelativeToolTip": "ExaminationSystem\\Repositories\\Repository.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAQwDcAAAAMAAAA",
+              "Title": "StudentProfile.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\Profiles\\StudentProfile.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Profiles\\StudentProfile.cs",
+              "RelativeToolTip": "ExaminationSystem\\Profiles\\StudentProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:01:16.477Z",
+              "WhenOpened": "2024-08-07T11:26:03.305Z",
               "EditorCaption": ""
             },
             {
@@ -159,61 +91,61 @@
               "RelativeDocumentMoniker": "ExaminationSystem\\Services\\Course\\CourseService.cs",
               "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Course\\CourseService.cs",
               "RelativeToolTip": "ExaminationSystem\\Services\\Course\\CourseService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAywAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:28:01.787Z",
+              "WhenOpened": "2024-08-07T11:24:45.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChoiceViewModel.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\ViewModels\\Choices\\ChoiceViewModel.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\ViewModels\\Choices\\ChoiceViewModel.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\ViewModels\\Choices\\ChoiceViewModel.cs",
-              "RelativeToolTip": "ExaminationSystem\\ViewModels\\Choices\\ChoiceViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "DocumentIndex": 7,
+              "Title": "StudentLoginViewModel.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\ViewModels\\Student\\StudentLoginViewModel.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\ViewModels\\Student\\StudentLoginViewModel.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\ViewModels\\Student\\StudentLoginViewModel.cs",
+              "RelativeToolTip": "ExaminationSystem\\ViewModels\\Student\\StudentLoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T15:22:47.391Z",
+              "WhenOpened": "2024-08-07T11:23:23.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentLoginDTO.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\DTOs\\Student\\StudentLoginDTO.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\DTOs\\Student\\StudentLoginDTO.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\DTOs\\Student\\StudentLoginDTO.cs",
+              "RelativeToolTip": "ExaminationSystem\\DTOs\\Student\\StudentLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T11:23:12.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IChoiceService.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Choices\\IChoiceService.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Services\\Choices\\IChoiceService.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Choices\\IChoiceService.cs",
-              "RelativeToolTip": "ExaminationSystem\\Services\\Choices\\IChoiceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "ExaminationSystem\\Controllers\\InstructorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T14:02:15.458Z",
+              "WhenOpened": "2024-08-07T11:27:08.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChoiceService.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Choices\\ChoiceService.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Services\\Choices\\ChoiceService.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Services\\Choices\\ChoiceService.cs",
-              "RelativeToolTip": "ExaminationSystem\\Services\\Choices\\ChoiceService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAzwDQAAAAmAAAA",
+              "DocumentIndex": 4,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "ExaminationSystem\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "ExaminationSystem\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T13:12:45.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuestionMediator.cs",
-              "DocumentMoniker": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Mediators\\Questions\\QuestionMediator.cs",
-              "RelativeDocumentMoniker": "ExaminationSystem\\Mediators\\Questions\\QuestionMediator.cs",
-              "ToolTip": "C:\\Marwy\\Programming Courses\\Backend.Net\\Demos\\Projects\\ExaminationSystem\\ExaminationSystem\\Mediators\\Questions\\QuestionMediator.cs",
-              "RelativeToolTip": "ExaminationSystem\\Mediators\\Questions\\QuestionMediator.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA3wCAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T14:07:57.375Z",
+              "WhenOpened": "2024-08-07T11:27:10.903Z",
               "EditorCaption": ""
             }
           ]

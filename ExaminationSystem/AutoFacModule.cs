@@ -7,6 +7,7 @@ using ExaminationSystem.Services.StudentCourses;
 using ExaminationSystem.Services.Questions;
 using ExaminationSystem.Services.NewFolder;
 using ExaminationSystem.Mediators.Questions;
+using ExaminationSystem.Services.Students;
 
 namespace ExaminationSystem
 {
@@ -22,6 +23,7 @@ namespace ExaminationSystem
             builder.RegisterAssemblyTypes(typeof(IQuestionService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterAssemblyTypes(typeof(IChoiceService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
             builder.RegisterAssemblyTypes(typeof(IQuestionMediator).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
+            builder.RegisterAssemblyTypes(typeof(IStudentService).Assembly).AsImplementedInterfaces().InstancePerLifetimeScope();
 
         }
     }
